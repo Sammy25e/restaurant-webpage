@@ -5,7 +5,8 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Appstore from "./components/Appstore";
 import Testimonial from "./components/Testimonial";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+
 const App = () => {
   return (
     <div>
@@ -13,7 +14,7 @@ const App = () => {
       <Herosection />
       <Services />
       <About />
-      <Appstore/>
+      <Appstore />
       <Testimonial />
       <Footer />
     </div>
