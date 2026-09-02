@@ -5,6 +5,7 @@ import About from "./components/About";
 // import Appstore from "./components/Appstore";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
+import Store from "./components/Store";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Herosection />
       <Services />
       <About />
+      <Store />
       {/* <Appstore /> */}
       <Testimonial />
       <Footer />
