@@ -13,7 +13,7 @@ const Appstore = () => {
           <div className=" flex flex-wrap justify-center sm:justify-start items-center">
             <a href="">
               <img
-                src={playstore}
+             src={playstore}
                 alt="playstore"
                 className=" max-w-[150px] sm: max-w-[120px] md:max-w-[200px] "
               />
