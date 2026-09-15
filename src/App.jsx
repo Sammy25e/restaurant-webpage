@@ -18,8 +18,7 @@ const App = () => {
       <About />
       <Appstore />
       <Testimonial />
-      <Footer /> *{/* <Product /> */}
-      {/* <Commerce /> */}
+      <Footer /> 
     </div>
   );
 };
