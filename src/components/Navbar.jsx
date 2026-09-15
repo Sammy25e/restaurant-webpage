@@ -11,8 +11,8 @@ const Navbar = () => {
           <h2>Foodie</h2>
         </div>
 
-        <div className=" hidden sm: md:flex items-center justify-center gap-5">
-          <ul className="flex items-center gap-4 text-sm font-medium">
+        <div className=" flex flex-col  flex-row items-center justify-center gap-5">
+          <ul className=" hidden md:flex items-center gap-4 text-sm font-medium">
             <li className="hover:text-amber-300">
               <a href="#home">Home</a>
             </li>
@@ -22,12 +22,13 @@ const Navbar = () => {
             <li className="hover:text-amber-300">
               <a href="#contact">Contact</a>
             </li>
+            <button className="  bg-amber-400 text-white px-4 py-1.5 rounded-full">
+              order
+            </button>
           </ul>
-          <button className=" bg-amber-400 text-white px-4 py-1.5 rounded-full">
-            order
-          </button>
+
           <button>
-            <CiMenuBurger />
+            <CiMenuBurger className=" flex md:hidden " />
           </button>
         </div>
       </div>

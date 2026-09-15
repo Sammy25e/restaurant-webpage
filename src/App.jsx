@@ -6,6 +6,8 @@ import About from "./components/About";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import Appstore from "./components/Appstore";
+import Product from "./components/Product";
+import Commerce from "./components/Commerce";
 
 const App = () => {
   return (
@@ -16,7 +18,8 @@ const App = () => {
       <About />
       <Appstore />
       <Testimonial />
-      <Footer />
+      <Footer /> *{/* <Product /> */}
+      {/* <Commerce /> */}
     </div>
   );
 };

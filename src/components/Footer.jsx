@@ -61,7 +61,7 @@ const Footer = () => {
               <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
                 Important Links
               </h1>
-              <ul className="flex flex-col gap-3 ">
+              <ul className="flex flex-col gap-3  ">
                 <li>Home</li>
                 <li>About</li>
                 <li>Services</li>

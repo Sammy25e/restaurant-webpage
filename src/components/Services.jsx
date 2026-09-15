@@ -40,12 +40,12 @@ const Services = () => {
             ipsa
           </p>
         </div>
-        <div className="flex flex-col md:flex-row space-y-0 items-center justify-between py-15"> 
+        <div className="flex flex-col md:flex-row  items-center justify-between py-15  "> 
           {data.map((items, index) => (
-            <div key={index} className=" group w-80 p-6 bg-white ">
-              <img src={items.image} alt="" className="w-60 sm:gap-5-mt-25" />
+            <div key={index} className=" group w-80 p-10 m-10  bg-white shadow-md rounded-2xl bg-gray-100 hover:bg-amber-400  ">
+              <img src={items.image} alt="" className="w-60 gap-20 sm:-space-y-12  -mt-25" />
               <h2 className=" text-xl sm:gap-5 font-bold">{items.title} </h2>
-              <p className=" text-gray-500   text-sm group-hover:text-amber-400">
+              <p className=" text-gray-500 text-xs md:text-sm ">
                 {items.description}
               </p>
             </div>

@@ -5,7 +5,7 @@ import { GiFoodTruck } from "react-icons/gi";
 
 const About = () => {
   return (
-    <div id="about" className=" w-full py-16 -mt-50">
+    <div id="about" className=" w-full py-16 ">
       <div className="max-w-7xl w-full mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between">
         <img src={food1} alt="" className="w-100  h-auto object-cover" />
         <div className="max-w-[600px] w-full space-y-6">
